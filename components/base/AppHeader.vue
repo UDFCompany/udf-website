@@ -128,7 +128,9 @@
           <div class="flex items-center space-x-2 ml-4">
             <button
               @click="changeLanguage('vi')"
-              :class="['font-bold', scrolled ? 'text-gray-800' : 'text-white']"
+              :class="[
+                currentLocale === 'vi' ? 'font-bold text-opacity-100' : 'text-opacity-75',
+                , scrolled ? 'text-gray-800' : 'text-white']"
               class="px-2 py-1 rounded transition-colors"
             >
               VN
@@ -142,11 +144,9 @@
             >
             <button
               @click="changeLanguage('en')"
-              :class="{
-                'font-bold': currentLocale === 'en',
-                'text-white': !scrolled,
-                'text-gray-800': scrolled,
-              }"
+              :class="[
+                currentLocale === 'en' ? 'font-bold text-opacity-100' : 'text-opacity-75',
+                scrolled ? 'text-gray-800' : 'text-white']"
               class="px-2 py-1 rounded transition-colors"
             >
               EN
@@ -160,11 +160,9 @@
           <div class="flex items-center space-x-2">
             <button
               @click="changeLanguage('vi')"
-              :class="{
-                'font-bold': currentLocale === 'vi',
-                'text-white': !scrolled,
-                'text-gray-800': scrolled,
-              }"
+              :class="[
+                currentLocale === 'vi' ? 'font-bold text-opacity-100' : 'text-opacity-75',
+                scrolled ? 'text-gray-800' : 'text-white']"
               class="px-2 py-1 rounded transition-colors"
             >
               VN
@@ -178,11 +176,9 @@
             >
             <button
               @click="changeLanguage('en')"
-              :class="{
-                'font-bold': currentLocale === 'en',
-                'text-white': !scrolled,
-                'text-gray-800': scrolled,
-              }"
+              :class="[
+                currentLocale === 'en' ? 'font-bold text-opacity-100' : 'text-opacity-75',
+                scrolled ? 'text-gray-800' : 'text-white']"
               class="px-2 py-1 rounded transition-colors"
             >
               EN

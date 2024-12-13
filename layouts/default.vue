@@ -103,7 +103,7 @@ const isContactPage = computed(() => {
           <div>
             <slot />
           </div>
-          <div class="container max-w-7xl mx-auto px-4">
+          <div class="container max-w-7xl mx-auto">
             <footer class="py-16 bg-white">
               <BaseAppFooter v-if="!isContactPage" />
             </footer>
