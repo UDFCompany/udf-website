@@ -98,7 +98,7 @@
               class="text-center"
             >
               <img
-                :src="`/udfpage.github.io/about/directors/${director.image}`"
+                :src="`/udf-website/about/directors/${director.image}`"
                 :alt="director.name"
                 class="mx-auto mb-4 object-cover rounded-lg"
               />

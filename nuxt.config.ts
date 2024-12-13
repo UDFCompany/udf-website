@@ -29,14 +29,14 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: "/udfpage.github.io/",
+    baseURL: "/udf-website/",
     buildAssetsDir: "assets",
     head: {
       link: [
         {
           rel: "icon",
           type: "image/x-icon",
-          href: "/udfpage.github.io/udf_logo.png",
+          href: "/udf-website/udf_logo.png",
         },
       ],
     },

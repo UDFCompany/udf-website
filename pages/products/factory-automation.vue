@@ -50,7 +50,7 @@
             </p>
             <div>
               <img
-                :src="`/udfpage.github.io/products/factory-automation/${project.image}`"
+                :src="`/udf-website/products/factory-automation/${project.image}`"
                 alt="Wire cutting machine"
                 class="w-full"
               />
