@@ -1,1 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /en
+Allow: /vi
+Allow: /products/
+Allow: /about
+Allow: /contact
 
+# Sitemap
+Sitemap: https://udf.edu.vn/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
