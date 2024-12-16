@@ -82,7 +82,7 @@ const isContactPage = computed(() => {
               <div class="bg-orange-500 py-6">
                 <template v-if="contentHero.bg">
                   <img
-                    :src="`/udf-website/${contentHero.bg}`"
+                    :src="`/${contentHero.bg}`"
                     alt="Robots"
                     class="w-full max-w-4xl mx-auto h-auto"
                     referrerpolicy="no-referrer"

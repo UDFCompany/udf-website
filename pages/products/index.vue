@@ -9,7 +9,7 @@
             <div v-for="product in products" :key="product.name"
               class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300">
               <NuxtLinkLocale :to="`/products/${product.link}`" class="flex flex-row md:flex-col p-4">
-                <img :src="`/udf-website/${product.image}`" :alt="product.name"
+                <img :src="`/${product.image}`" :alt="product.name"
                   class="w-1/3 md:w-full h-24 md:h-48 object-contain md:mb-4" referrerpolicy="no-referrer" />
                 <div class="ml-4 md:ml-0">
                   <h3 class="font-semibold mb-2 md:text-center">
