@@ -82,7 +82,7 @@ const isContactPage = computed(() => {
               <div class="bg-orange-500 py-6">
                 <template v-if="contentHero.bg">
                   <img
-                    :src="`/${contentHero.bg}`"
+                    :src="contentHero.bg"
                     alt="Robots"
                     class="w-full max-w-4xl mx-auto h-auto"
                     referrerpolicy="no-referrer"
@@ -104,7 +104,7 @@ const isContactPage = computed(() => {
             <slot />
           </div>
           <div class="container max-w-7xl mx-auto">
-            <footer class="py-16 bg-white">
+            <footer class="py-16 bg-white px-4 md:px-0">
               <BaseAppFooter v-if="!isContactPage" />
             </footer>
           </div>

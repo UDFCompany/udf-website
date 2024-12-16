@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Trang chủ -->
+  <url>
+    <loc>https://udf.edu.vn/</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Sản phẩm -->
+  <url>
+    <loc>https://udf.edu.vn/products</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/products"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/products"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Robot vệ sinh solar -->
+  <url>
+    <loc>https://udf.edu.vn/products/solar-clean-bot</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/products/solar-clean-bot"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/products/solar-clean-bot"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Thiết bị kiểm tra linh kiện -->
+  <url>
+    <loc>https://udf.edu.vn/products/components-tester</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/products/components-tester"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/products/components-tester"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Tự động hoá sản xuất -->
+  <url>
+    <loc>https://udf.edu.vn/products/factory-automation</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/products/factory-automation"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/products/factory-automation"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Thiết bị đào tạo -->
+  <url>
+    <loc>https://udf.edu.vn/products/training-equipment</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/products/training-equipment"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/products/training-equipment"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Về chúng tôi -->
+  <url>
+    <loc>https://udf.edu.vn/about</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Liên hệ -->
+  <url>
+    <loc>https://udf.edu.vn/contact</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://udf.edu.vn/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udf.edu.vn/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset> 

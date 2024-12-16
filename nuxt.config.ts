@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    // baseURL: "/udf-website/",
+    baseURL: "/",
     buildAssetsDir: "assets",
     head: {
       link: [

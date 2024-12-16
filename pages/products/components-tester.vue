@@ -35,7 +35,7 @@
                 />
               </div>
               <div class="md:w-2/3 text-sm md:text-lg">
-                <div class="text-center text-[36px] py-4 mt-10">
+                <div class="text-xl md:text-2xl text-center font-semibold whitespace-pre-line mb-4 mt-10">
                   {{ t("specifications.title") }}
                 </div>
                 <ol class="list-inside leading-7 space-y-2">
