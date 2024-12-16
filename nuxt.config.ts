@@ -13,6 +13,7 @@ export default defineNuxtConfig({
 
   modules: ["@nuxtjs/i18n", "@vueuse/nuxt"],
   i18n: {
+    baseUrl: "/",
     vueI18n: "./i18n.config.ts",
     locales: [
       {
