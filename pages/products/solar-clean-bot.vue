@@ -15,7 +15,9 @@
           </div>
           <div class="mt-10">
             <!-- carousel -->
-            <div class="h-[500px] bg-gray-200"></div>
+            <div class="bg-gray-200 rounded-lg overflow-hidden">
+              <BaseCarousel :images="featuresBenefits.slides_1" class="h-full md:h-[500px]" />
+            </div>
           </div>
         </div>
       </div>
@@ -27,7 +29,7 @@
         <div class="container mx-auto px-4">
           <div class="max-w-7xl mx-auto">
             <div class="aspect-w-16 aspect-h-9">
-              <iframe class="w-full h-[651px]" src="https://www.youtube.com/embed/w95_lWB-OFg"
+              <iframe class="w-full h-[300px] md:h-[651px]" src="https://www.youtube.com/embed/w95_lWB-OFg"
                 title="Vì sao cần vệ sinh định kỳ tấm pin năng lượng mặt trời?" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -56,7 +58,9 @@
           <div class="max-w-7xl mx-auto">
             <div>
               <!-- carousel -->
-              <div class="h-[500px] bg-gray-200"></div>
+              <div class="bg-gray-200 rounded-lg overflow-hidden">
+                <BaseCarousel :images="featuresBenefits.slides_2" class="h-full md:h-[500px]" />
+              </div>
             </div>
           </div>
         </div>
@@ -268,6 +272,14 @@
           </div>
         </div>
         <!-- SECTION 10 -->
+        <div class="container mx-auto px-4 py-4">
+          <div class="max-w-7xl mx-auto">
+            <div class="flex justify-center">
+              <img src="/products/solar-clean-bot/features-benefits/section_10/thao_roi.png"
+                class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+            </div>
+          </div>
+        </div>
         <div class="py-4 bg-orange-500 text-white">
           <div class="container mx-auto px-4">
             <div class="max-w-7xl mx-auto">
@@ -275,11 +287,30 @@
             </div>
           </div>
         </div>
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 py-4">
           <div class="max-w-7xl mx-auto">
-            <div class="flex justify-center">
-              <img src="/products/solar-clean-bot/features-benefits/section_10/thao_roi.png"
-                class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+              <div class="w-full flex flex-col items-center">
+                <img src="/products/solar-clean-bot/features-benefits/section_10/day_dai_banh_xe.png"
+                  class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+                <div class="text-center text-base md:text-xl font-bold whitespace-pre-line mt-4 pb-4">
+                  {{ t('features_benefits.section_10.day_dai_banh_xe') }}
+                </div>
+              </div>
+              <div class="w-full flex flex-col items-center">
+                <img src="/products/solar-clean-bot/features-benefits/section_10/ong_cap_nuoc_vao_choi.png"
+                  class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+                <div class="text-center text-base md:text-xl font-bold whitespace-pre-line mt-4 pb-4">
+                  {{ t('features_benefits.section_10.vat_lieu_che_tao') }}
+                </div>
+              </div>
+              <div class="w-full flex flex-col items-center">
+                <img src="/products/solar-clean-bot/features-benefits/section_10/cuoc_choi_nylon.png"
+                  class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+                <div class="text-center text-base md:text-xl font-bold whitespace-pre-line mt-4 pb-4">
+                  {{ t('features_benefits.section_10.cuoc_choi_nylon') }}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -287,23 +318,59 @@
         <div class="py-4 bg-orange-500 text-white">
           <div class="container mx-auto px-4">
             <div class="max-w-7xl mx-auto">
-              <h1 class="md:text-2xl font-bold text-center">{{ t('features_benefits.section_10.title') }}</h1>
+              <h1 class="md:text-2xl font-bold text-center">{{ t('features_benefits.section_11.title') }}</h1>
             </div>
           </div>
         </div>
         <div class="container mx-auto px-4">
           <div class="max-w-7xl mx-auto">
-            <div class="flex justify-center">
-              <img src="/products/solar-clean-bot/features-benefits/section_10/thao_roi.png"
-                class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-4">
+              <div class="flex justify-center">
+                <iframe class="w-full max-w-full aspect-video" src="https://www.youtube.com/embed/Dh9xjIRTN5o"
+                  title="Robot vệ sinh solar chuyên nghiệp [SolarCleanBot.R1-Thông số kỹ thuật]" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="flex justify-center mt-4 md:mt-0">
+                <iframe class="w-full max-w-full aspect-video" src="https://www.youtube.com/embed/cKgh1DWa8jM"
+                  title="Robot vệ sinh solar chuyên nghiệp [SolarCleanBot.R2]" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              <div class="flex justify-center mt-4 md:mt-0">
+                <iframe class="w-full max-w-full aspect-video" src="https://www.youtube.com/embed/avdCmCRoekw"
+                  title="Robot vệ sinh solar chuyên nghiệp [SolarCleanBot.R3]" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 12: DOI TAC CHIEN LUOC -->
+        <div class="py-4 bg-orange-500 text-white">
+          <div class="container mx-auto px-4">
+            <div class="max-w-7xl mx-auto">
+              <h1 class="md:text-2xl font-bold text-center">{{ t('features_benefits.section_12.title') }}</h1>
             </div>
           </div>
         </div>
         <div class="container mx-auto px-4">
           <div class="max-w-7xl mx-auto">
-            <div class="flex justify-center">
-              <img src="/products/solar-clean-bot/features-benefits/section_10/thao_roi.png"
-                class="rounded-xl overflow-hidden" alt="Solar Clean Bot">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="w-full flex flex-col items-center">
+                <img src="/products/solar-clean-bot/features-benefits/section_12/saigon_vrg.png"
+                  class="rounded-xl overflow-hidden" alt="Saigon VRG">
+                <div class="text-center text-base md:text-xl font-bold whitespace-pre-line mt-4 pb-4">
+                  {{ t('features_benefits.section_12.saigon_vrg') }}
+                </div>
+              </div>
+              <div class="w-full flex flex-col items-center">
+                <img src="/products/solar-clean-bot/features-benefits/section_12/xce.png"
+                  class="rounded-xl overflow-hidden" alt="Nang luong XCE">
+                <div class="text-center text-base md:text-xl font-bold whitespace-pre-line mt-4 pb-4">
+                  {{ t('features_benefits.section_12.xce') }}
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -406,6 +473,17 @@ const { t } = useI18n({
         },
         section_10: {
           title: "Robot can be disassembled into parts, making it convenient for transportation to the roof",
+          day_dai_banh_xe: "Rubber-coated wheels do not cause scratches and microcracks",
+          vat_lieu_che_tao: "Materials: 6061 Aluminum, engineering plastic and 304 stainless steel",
+          cuoc_choi_nylon: "The brush bristles are made of nylon fibers",
+        },
+        section_11: {
+          title: "Videos library"
+        },
+        section_12: {
+          title: "Strategic partnership",
+          saigon_vrg: "Công ty CP Đầu tư Sài Gòn VRG",
+          xce: "Công ty CP Năng lượng XCE",
         }
       },
       robots: {
@@ -561,6 +639,17 @@ const { t } = useI18n({
         },
         section_10: {
           title: "Robot có thể tháo rời từng phần thuận tiện cho việc vận chuyển lên mái",
+          day_dai_banh_xe: "Bánh xe bọc cao su không gây trầy xước và microcrack",
+          vat_lieu_che_tao: "Vật liệu chế tạo: Nhôm 6061, nhựa kỹ thuật và Inox 304 ",
+          cuoc_choi_nylon: "Cước chổi được làm bằng sợi nylon",
+        },
+        section_11: {
+          title: "Thư viện video",
+        },
+        section_12: {
+          title: "Đối tác chiến lược",
+          saigon_vrg: "Công ty CP Đầu tư Sài Gòn VRG",
+          xce: "Công ty CP Năng lượng XCE",
         }
       },
       robots: {
@@ -667,6 +756,8 @@ const robots = computed(() => ([
 ]));
 
 const featuresBenefits = computed(() => ({
+  slides_1: Array.from({ length: 23 }, (_, i) => `/products/solar-clean-bot/slides/slide_robot_${i}.jpeg`),
+  slides_2: Array.from({ length: 10 }, (_, i) => `/products/solar-clean-bot/slides/slide_moi_truong_${i + 1}.jpeg`),
   section_1: [
     {
       image: "/products/solar-clean-bot/features-benefits/section_1/2x.png",
