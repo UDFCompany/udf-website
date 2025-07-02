@@ -7,7 +7,7 @@ Allow: /about
 Allow: /contact
 
 # Sitemap
-Sitemap: https://udf.edu.vn/sitemap.xml
+Sitemap: https://udf.com.vn/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 10

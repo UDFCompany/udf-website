@@ -70,46 +70,44 @@ const isContactPage = computed(() => {
 <template>
   <div>
     <Html>
-      <Head>
-        <Title>Uni Design Factory</Title>
-      </Head>
 
-      <Body>
-        <BaseAppHeader />
-        <div>
-          <section class="pt-16">
-            <div class="relative">
-              <div class="bg-orange-500 py-6">
-                <template v-if="contentHero.bg">
-                  <img
-                    :src="contentHero.bg"
-                    alt="Robots"
-                    class="w-full max-w-4xl mx-auto h-auto"
-                    referrerpolicy="no-referrer"
-                  />
-                </template>
-                <template v-else>
-                  <div class="w-full text-center max-w-6xl mx-auto h-auto">
-                    <h1 class="text-2xl md:text-4xl font-bold text-white">
-                      {{ contentHero.title }}
-                    </h1>
-                  </div>
-                </template>
-              </div>
+    <Head>
+      <Title>Uni Design Factory</Title>
+    </Head>
+
+    <Body>
+      <BaseAppHeader />
+      <div>
+        <section class="pt-16">
+          <div class="relative">
+            <div class="bg-orange-500 py-6">
+              <template v-if="contentHero.bg">
+                <img :src="contentHero.bg" alt="Robots" class="w-full max-w-4xl mx-auto h-auto"
+                  referrerpolicy="no-referrer" />
+              </template>
+              <template v-else>
+                <div class="w-full text-center max-w-6xl mx-auto h-auto">
+                  <h1 class="text-2xl md:text-4xl font-bold text-white">
+                    {{ contentHero.title }}
+                  </h1>
+                </div>
+              </template>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
+      </div>
+      <div>
         <div>
-          <div>
-            <slot />
-          </div>
-          <div class="container max-w-7xl mx-auto">
-            <footer class="py-16 bg-white px-4 md:px-0">
-              <BaseAppFooter v-if="!isContactPage" />
-            </footer>
-          </div>
+          <slot />
         </div>
-      </Body>
+        <div class="container max-w-7xl mx-auto">
+          <footer class="py-16 bg-white px-4 md:px-0">
+            <BaseAppFooter v-if="!isContactPage" />
+          </footer>
+        </div>
+      </div>
+    </Body>
+
     </Html>
   </div>
 </template>
